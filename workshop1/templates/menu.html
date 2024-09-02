@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Belle Époque - Menu</title>
+    <link rel="stylesheet" href="static/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <img src="static/din.jpg" alt="" />
+    <header>
+        <h2>Our Menu</h2>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/menu"> Food Menu</a></li>
+                <li><a href="/dinning">Dinning</a></li>
+                <li><a href="/feedback">Feedback</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="menu">
+        <div class="menu-container">
+            <div class="menu-item">
+                <!-- <img src="" alt="Coq au Vin"> -->
+                <h3>Coq au Vin</h3>
+                <p class="description">Braised chicken with wine, lardons, and mushrooms</p>
+                <div class="price-rating">
+                    <span class="price">$28</span>
+                    <span class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </span>
+                </div>
+                <button class="add-to-cart" data-name="Coq au Vin" data-price="28">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <!-- <img src="/placeholder.svg?height=200&width=300" alt="Ratatouille"> -->
+                <h3>Ratatouille</h3>
+                <p class="description">Traditional French Provençal vegetable stew</p>
+                <div class="price-rating">
+                    <span class="price">$22</span>
+                    <span class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </span>
+                </div>
+                <button class="add-to-cart" data-name="Ratatouille" data-price="22">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <!-- <img src="/placeholder.svg?height=200&width=300" alt="Beef Bourguignon"> -->
+                <h3> Bourguignon</h3>
+                <p class="description"> stewed in red wine with carrots and pearl onions</p>
+                <div class="price-rating">
+                    <span class="price">$30</span>
+                    <span class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </span>
+                </div>
+                <button class="add-to-cart" data-name="Beef Bourguignon" data-price="30">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <!-- <img src="" alt="Ratatouille"> -->
+                <h3>Ratatouille</h3>
+                <p class="description">Traditional French Provençal vegetable stew</p>
+                <div class="price-rating">
+                    <span class="price">$22</span>
+                    <span class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </span>
+                </div>
+                <button class="add-to-cart" data-name="Ratatouille" data-price="22">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <!-- <img src="" alt="Beef Bourguignon"> -->
+                <h3>Bourguignon</h3>
+                <p class="description"> stewed in red wine with carrots and pearl onions</p>
+                <div class="price-rating">
+                    <span class="price">$30</span>
+                    <span class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </span>
+                </div>
+
+                <button class="add-to-cart" data-name="Beef Bourguignon" data-price="30">Add to Cart</button>
+
+            </div>
+    </main>
+
+    <section id="cart" class="hidden">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <div id="cart-total">Total: $0</div>
+        <button id="checkout">Proceed to Checkout</button>
+    </section>
+
+    <footer>
+        <h3><a href="/">HOME</a></h3>
+        <h3><a href="/dinning">DINNING</a></h3>
+        <h3><a href="/menu">FOOD MENU</a></h3>
+        <h3><a href="/about">ABOUT US</a></h3>
+        <h3><a href="/feedback">FEEDBACK</a></h3>
+
+        <p>La Belle Époque - 123 Gourmet Street, Foodville, FC 12345</p>
+        <p>Phone: (123) 456-7890 | Email: info@labelleepoque.com</p>
+    </footer>
+
+    <!-- <script src="static/menu.js"></script> -->
+</body>

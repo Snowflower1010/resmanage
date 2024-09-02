@@ -1,0 +1,11 @@
+{
+    "params":
+    {
+      "local_server": "True",
+      "local_uri": "mysql+pymysql://root:@localhost/restro",
+      "prod_uri": "mysql+pymysql://root:@localhost/restro",
+      "fb_url":"https://www.facebook.com/",
+      "ig_url":"https://www.instagram.com/",
+      "twitter_url":"https://x.com/"
+    }
+  }

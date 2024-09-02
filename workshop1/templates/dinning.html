@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Belle Époque - Fine Dining Experience</title>
+    <link rel="stylesheet" href="static/dinning.css">
+</head>
+
+<body>
+    <img src="static/food3.jpg" alt="">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/menu"> Food Menu</a></li>
+                <li><a href="/dinning">Dinning</a></li>
+                <li><a href="/feedback">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 style="text-align: center;">DINNING </h1>
+    </main>
+
+    <main>
+        <section class="time-date">
+            <h2>Current Time and Date</h2>
+            <p id="current-time"></p>
+            <p id="current-date"></p>
+        </section>
+
+        <section class="menu">
+            <h2>Today's Specials</h2>
+            <div class="menu-item">
+                <span>Spicy Momos</span>
+                <span>280₹</span>
+            </div>
+            <div class="menu-item">
+                <span>Manchurian</span>
+                <span>220₹</span>
+            </div>
+            <div class="menu-item">
+                <span>Flooda Desert</span>
+                <span>120₹</span>
+            </div>
+        </section>
+
+        <section class="reservation">
+            <h2>Make a Reservation</h2>
+            <form id="reservation-form" action = "/dinning" method = "post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" required>
+
+                <label for="time">Time:</label>
+                <input type="time" id="time" required>
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" min="1" max="10" required>
+
+                <button type="submit">Reserve Table</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>La Belle Époque - 123 Gourmet Street, Foodville, FC 12345</p>
+        <p>Phone: (123) 456-7890 | Email: info@labelleepoque.com</p>
+    </footer>
+
+    <script src="static/dinning.js"></script>
+</body>
+
+</html>
